@@ -1,0 +1,124 @@
+a.icon, a:visited, a:active {
+    color: #5BC2E7;
+}
+a.icon:hover {
+    color: #008cff;
+}
+a.cta {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: medium;
+}
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0ffff;
+}
+body {
+    margin: 0;
+    margin-bottom: 15vh;
+}
+h1 {
+    margin: 0;
+    text-shadow: 0 4px 4px #0007;
+}
+.header {
+    height: 50vh;
+    background: linear-gradient(to right bottom, #008cff , #5BC2E7);
+    color: #fdfdfd;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 4px #0007;
+    
+}
+.intro {
+    position: relative;
+    top: -77px;
+    text-align: center;
+}
+.intro__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #fdfdfd;
+    box-shadow: 0 4px 4px #0007;
+}
+.intro__copy {
+    margin: 16px auto;
+    padding: 16px;
+    max-width: 100ch;
+    font-style: italic;
+}
+.intro__links, .footer__links {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    color: #5BC2E7;
+}
+
+.linguica {
+    margin: 0 auto;
+    padding: 16px;
+    max-width: 100ch;
+    text-align: center;
+}
+.portfolio {
+    text-align: center;
+    
+}
+.portfolio__cover {
+    display: block;
+    margin: auto auto;
+    width: 80vw;
+    border-radius: 10%;
+    box-shadow: 0 4px 4px #0007;
+}
+.portfolio__list {
+    text-align: left;
+    padding-left: 30vw;
+    list-style: square;
+}
+.CTA {
+    background: linear-gradient(to right bottom, #008cff , #5BC2E7);
+    padding: 32px;
+    text-align: center;
+    color: #fdfdfd;
+    box-shadow: 0 -4px 4px #0007;
+}
+
+.CTA__copy {
+    margin: 0 auto;
+    text-shadow: 0 4px 4px #0004;
+     
+}
+.CTA__button {
+    background: #fdfdfd50;
+    margin: 2vh;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #008cff;
+    box-shadow: 0 4px 4px #0007;
+
+}
+.footer {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 15vh;
+    padding: 32px;
+    background: #010101;
+    color: #fdfdfd;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.footer__links {    
+    margin: 0;
+    justify-self: end;
+}
