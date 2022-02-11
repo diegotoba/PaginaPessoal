@@ -69,13 +69,12 @@ h1 {
 }
 .portfolio {
     text-align: center;
-    
 }
 .portfolio__cover {
     display: block;
     margin: auto auto;
-    width: 80vw;
-    border-radius: 10%;
+    width: 70vw;
+    border-radius: 20px;
     box-shadow: 0 4px 4px #0007;
 }
 .portfolio__list {
